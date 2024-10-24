@@ -37,7 +37,11 @@
       display: inline;
     }
 
-
+    figure img {
+      max-height: 600px;
+      max-width: 400px;
+    }
+    
     .horizontal-center {
       display: flex;
       justify-content: center;
@@ -47,6 +51,9 @@
     .flex-column {
       display: flex;
       flex-direction: column;
+    }
+    .horizontal-center.flex-column {
+      align-items: center;
     }
   </style>
 </head>
