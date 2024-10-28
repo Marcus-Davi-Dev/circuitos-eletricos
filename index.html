@@ -38,8 +38,7 @@
     }
 
     figure img {
-      max-height: 600px;
-      max-width: 400px;
+      max-width: 100%;
     }
     
     .horizontal-center {
@@ -52,7 +51,9 @@
       display: flex;
       flex-direction: column;
     }
+    
     .horizontal-center.flex-column {
+      justify-content: unset;
       align-items: center;
     }
   </style>
@@ -81,7 +82,7 @@
             fluir. Ex: Pilhas, baterias e tomadas.</p>
             <figure class="horizontal-center flex-column">
               <img src="imagens/gerador.webp" alt="O gerador é simbolizado por duas barras paralelas de tamanhos diferentes">
-              <figcaption>O gerador é simbolizado dessa forma</figcaption>
+              <figcaption>Representação do gerador</figcaption>
             </figure>
         </li>
         <br>
@@ -90,6 +91,10 @@
           <p>dissipam energia elétrica exclusivamente na forma de calor. Esse fenômeno é conhecido como Efeito Joule.
             Quanto maior é a resistência elétrica do resistor, menor é a corrente elétrica a atravessá-lo. Ex.: panelas
             elétricas e chapinhas.</p>
+          <figure class="horizontal-center flex-column">
+            <img src="imagens/resistor.webp" alt="O resistor é geralmente representado por um zigue-zague">
+            <figcaption>Representação do resistor</figcaption>
+          </figure>
         </li>
         <br>
         <li>
@@ -99,6 +104,10 @@
             produz movimento ou que comprime algum tipo de gás. O símbolo usado para representar os receptores é igual
             ao símbolo dos geradores, no entanto, nos receptores, a corrente elétrica sempre flui do menor potencial
             elétrico para o maior potencial elétrico.</p>
+          <figure class="horizontal-center flex-column">
+            <img src="imagens/receptor.webp" alt="O receptor elétrico é representado por uma barra maior positiva e uma barra menor negativa">
+            <figcaption>Representação do receptor</figcaption>
+          </figure>
         </li>
         <br>
         <li>
@@ -106,12 +115,20 @@
           <p>armazenam cargas elétricas quando submetidos a alguma diferença de potencial. São utilizados na maior parte
             dos circuitos elétricos, tanto para o armazenamento de cargas quanto para estabilizar o fluxo de elétrons no
             circuito.</p>
+          <figure class="horizontal-center flex-column">
+            <img src="imagens/capacitor.webp" alt="O capacitor é representado por duas barras paralelas de mesmo tamanho">
+            <figcaption>Representação do capacitor</figcaption>
+          </figure>
         </li>
         <br>
         <li>
           <strong>Dispositivos de controle</strong>:
           <p>são usados para medir diferentes parâmetros do circuito, como tensão elétrica e corrente elétrica. Ex.: os
             amperímetros, voltímetros e multímetros.</p>
+          <figure class="horizontal-center flex-column">
+            <img src="imagens/multimetro.webp" alt="Multímetro em um fundo branco">
+            <figcaption>Exemplo de um dispositivo de controle</figcaption>
+          </figure>
         </li>
         <br>
         <li>
@@ -119,6 +136,10 @@
           <p>Fornecem um mecanismo de interrupção da corrente elétrica caso ela exceda o limite de segurança. O fusível
             e o disjuntor são dispositivos de segurança.
           </p>
+          <figure class="horizontal-center flex-column">
+            <img src="imagens/fusivel.webp">
+            <figcaption></figcaption>
+          </figure>
         </li>
       </ul>
     </article>
