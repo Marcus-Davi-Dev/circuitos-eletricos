@@ -40,7 +40,11 @@
     figure img {
       max-width: 100%;
     }
-    
+
+    .vertical-center {
+      display: flex;
+      align-items: center;
+    }
     .horizontal-center {
       display: flex;
       justify-content: center;
@@ -105,8 +109,11 @@
             ao símbolo dos geradores, no entanto, nos receptores, a corrente elétrica sempre flui do menor potencial
             elétrico para o maior potencial elétrico.</p>
           <figure class="horizontal-center flex-column">
-            <img src="imagens/receptor.webp" alt="O receptor elétrico é representado por uma barra maior positiva e uma barra menor negativa">
-            <figcaption>Representação do receptor</figcaption>
+            <div class="vertical-center" style="justify-content: space-around;">
+              <img src="imagens/representacao-receptor.webp" alt="O receptor elétrico é representado por uma barra maior positiva e uma barra menor negativa">
+              <img src="imagens/receptor.webp" alt="Circuito elétrico com um receptor">
+            </div>
+            <figcaption>Representação do receptor e exemplo de circuito elétrico com um receptor</figcaption>
           </figure>
         </li>
         <br>
